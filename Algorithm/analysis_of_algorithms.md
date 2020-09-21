@@ -90,10 +90,10 @@ int seqSearch(int A[], int n, int K) {
 
 ### 함수의 증가율 비교 ex) 1
 
-<img src="C:\Users\hsryu\Desktop\TIL\Algorithm\growth-rate.JPG" width="450px" height="300px" alt="growth-rate"></img><br/>
+<img src="https://user-images.githubusercontent.com/62328584/93768672-b86fab80-fc54-11ea-8bc5-05847ee83f1f.JPG" width="450px" height="300px"></img><br/>
 
 ### 함수의 증가율 비교 ex) 2
-<img src="C:\Users\hsryu\Desktop\TIL\Algorithm\growth-rate표.JPG" width="450px" height="300px" alt="growth-rate표"></img><br/>
+<img src="https://user-images.githubusercontent.com/62328584/93768964-26b46e00-fc55-11ea-9f10-9f3f273bb055.JPG" width="450px" height="300px" alt="growth-rate표"></img><br/>
 
 증가율에 의한 함수 표기법
 -------------
