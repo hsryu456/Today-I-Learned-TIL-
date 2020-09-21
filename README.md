@@ -18,7 +18,7 @@ JayJin님, Lee HyunJoo님, RingoPPA님, namjunemy님의 Github TIL을 보고 많
 -------------
 
 ### Algorithm
-* [알고리즘 분석](https://github.com/hsryu456/Today-I-Learned_TIL/blob/master/Algorithm/analysis_of_algorithms.md, "github link")
+* [알고리즘 분석]("github link")
 *
 *
 ### Android
