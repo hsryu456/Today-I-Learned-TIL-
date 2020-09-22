@@ -3,8 +3,7 @@
 * 프로그램으로 구현해야 하는 비용이 든다. 
 * 프로그래밍언어, 프로그래머와 수행 환경(컴퓨터)에 따라 수행시간이 다르다.
 >   >ex) 알고리즘을 프로그래밍 언어로 구현하여 직접 컴퓨터에서 실행하여 수행시간을 측정하는 예제 프로그램 (by C) 
-<pre>
-<code>
+``` c
 #include <time.h>
 #include <stdio.h>
 int main()
@@ -19,8 +18,7 @@ int main()
 	printf("%f\n", duration); 
 	return 0;
 }
-</code>
-</pre>
+```
 
 - - -
 
@@ -65,7 +63,7 @@ int main()
   * A(n)으로 표기.
 - - -
 ### ex) 순차탐색_Sequential Search
-```
+``` c
 int seqSearch(int A[], int n, int K) { 
   int ans;
   ans = -1;
