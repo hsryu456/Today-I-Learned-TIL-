@@ -21,7 +21,7 @@ JayJin님, Lee HyunJoo님, RingoPPA님, namjunemy님의 Github TIL을 보고 많
 * [알고리즘 분석](https://github.com/hsryu456/Today-I-Learned_TIL/blob/master/Algorithm/analysis_of_algorithms.md#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%98-%EC%88%98%ED%96%89%EC%8B%9C%EA%B0%84-%EB%B6%84%EC%84%9D, "github link")
   * [수행시간 분석]
   * [점근적 분석]
-* [정렬]()
+* [정렬](https://github.com/hsryu456/Today-I-Learned_TIL/blob/master/Algorithm/sorting.md#%EC%A0%95%EB%A0%ACsorting, "github link")
   * [기본 정렬 알고리즘]
     - 선택 정렬(Selection Sort)
     - 버블 정렬(Bubble Sort)
