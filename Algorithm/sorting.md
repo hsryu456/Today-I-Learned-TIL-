@@ -204,14 +204,9 @@ void merge(int A[], int first, int mid, int last) {
 }
 ```
 
-
-<img src="https://user-images.githubusercontent.com/62328584/93768672-b86fab80-fc54-11ea-8bc5-05847ee83f1f.JPG" width="450px" height="300px"></img><br/>
-
-### 함수의 증가율 비교 ex) 2
-<img src="https://user-images.githubusercontent.com/62328584/93768964-26b46e00-fc55-11ea-9f10-9f3f273bb055.JPG" width="450px" height="300px" alt="growth-rate표"></img><br/>
-
-증가율에 의한 함수 표기법
+시간복잡도
 -------------
+
 * “Big-Theta” 표기("세타"라고 읽는다.)
   * Θ(f(n)) : n ≥ n0인 모든 정수 n에 대하여, c1 f(n) ≤ g(n) ≤ c2 f(n)을 만족하는 세 수 n0, c1, c2가 존재하면 g(n) ∈ Θ(f(n))을 만족하는 함수 g의 집합   
                 
