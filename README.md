@@ -2,8 +2,6 @@
 
 * 학습한 내용이나 개발관련 지식들을 기록으로 남긴다.
 * 무엇보다 **지속 가능한** 학습이 요구된다.
-
-JayJin님, Lee HyunJoo님, RingoPPA님, namjunemy님의 Github TIL을 보고 많은 영감을 얻었다.  
 - - -
 
 ✍작성법
@@ -52,3 +50,6 @@ JayJin님, Lee HyunJoo님, RingoPPA님, namjunemy님의 Github TIL을 보고 많
 *
 *
 *
+
+- - -
+>   >JayJin님, Lee HyunJoo님, RingoPPA님, namjunemy님의 Github TIL을 참고하여 기본적인 틀을 작성했습니다.
