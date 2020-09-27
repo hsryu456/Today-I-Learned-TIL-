@@ -107,7 +107,7 @@ void bubbleSort(int a[], int n) {
 =>가장 좋은 경우(best case) 시간 복잡도 = 정렬되어 있는 입력 O(n)
 
 - - -
-삽입정렬(_Insertion Sort_)
+삽입 정렬(_Insertion Sort_)
 -------------
 * 이미 정렬되어 있는 i개 배열에 하나의 원소를 더하여, 정렬된 i+1개의 배열을 만드는 과정을 반복한다.
 * 선택 정렬과 버블 정렬이 n개의 배열에서 시작하여 크기를 하나씩 줄여나가는 것과는 반대로, 삽입 정렬은 한 개의 배열에서 시작하여 크기를 늘려나가는 정렬이다.
@@ -145,10 +145,65 @@ void insertionSort(int a[], int n) {
 * 장점: 이해하기 쉽다. 코딩하기 쉽다. 입력이 적은 경우엔 매우 빠르다.
 * 단점: 입력이 클 경우 매우 느려진다.
 
+- - -
 
+# 분할과 정복(_Divide and Conquer_)
 
+* 큰 (입력의) 문제를 작은 (입력의) 문제(subproblem)들로 나눈다.   -----(1)
+* 단계 1의 작은 문제들의 해를 재귀적으로(recursively) 구한다. -----(2)
+* 단계 2에서 구한 작은 문제들의 해를 이용하여 원래 문제의 해를 구한다.
 
-### 함수의 증가율 비교 ex) 1
+병합 정렬(_Merge Sort_)
+-------------
+**(1)** 입력을 반으로 나눈다.  
+**(2)** 반으로 나눈 전반부와 후반부를 각각 독립적으로 정렬한다.  
+**(3)** (1), (2) 단계 수행 후 정렬된 두 부분을 합쳐(병합하여) 하나의 정렬된 배열을 얻는다.
+> >전반부와 후반부로 나눈 배열을 정렬할 때 역시 크기를 반으로 줄여가며 정렬한다.(재귀적)
+
+>ex) [31 3 65 73 8 11 20 29 48 15] -> [31 3 65 73 8] [11 20 29 48 15] -> [**3** **8** **31** **65** **73**] [_11 15 20 29 48_] -> [**3** **8** _11_ _15_ _20_ _29_ **31** _48_ **65** **73**] 
+
+ex)   
+><img src="https://user-images.githubusercontent.com/62328584/94353116-41993f00-00a8-11eb-88c7-0b41a17583fd.JPG" width="750px" height="300px"></img><br/>
+
+### ex) 병합 정렬(_Merge Sort_)
+``` java
+void mergeSort(int A[], int first, int last) {
+  if(first < last) {
+    int mid = (first + last) / 2;
+    mergeSort(A, first, mid);
+    mergeSort(A, mid+1, last);
+    merge(A, first, mid, last);
+  }
+}
+```
+``` java
+void merge(int A[], int first, int mid, int last) {
+  int i = start;
+  int j = mid + 1;
+  int k = start;
+  int[] tmp = new int[A.length];
+
+  while(i <= start && j <= last) {
+    if(A[i] <= A[j]) {
+      tmp[k] = A[i];
+      i++;
+    } else {
+      tmp[k] = A[j];
+      j++;
+    }
+    k++;
+  }
+  if(i > mid) {
+    for(int t = j; t <= end; t++, k++) {
+      tmp[k] = A[t];
+    }
+  }
+  for(int t = start; t <= end; t++) {
+    A[t] = tmp[t];
+  }
+}
+```
+
 
 <img src="https://user-images.githubusercontent.com/62328584/93768672-b86fab80-fc54-11ea-8bc5-05847ee83f1f.JPG" width="450px" height="300px"></img><br/>
 
