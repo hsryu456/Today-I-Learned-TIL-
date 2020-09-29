@@ -30,6 +30,12 @@
     - 힙 정렬(Heap Sort)
   * [특수 정렬 알고리즘]
     - 기수 정렬(Radix Sort)
+
+### Deep Learning(딥러닝)
+* 순방향 신경망 (DNN) 이론
+* Numpy
+* Matplotlib
+
 ### Android
 *
 *
