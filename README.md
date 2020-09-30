@@ -32,6 +32,7 @@
     - 기수 정렬(Radix Sort)
 
 ### Deep Learning(딥러닝)
+* [딥러닝 개요](https://github.com/hsryu456/Today-I-Learned_TIL/blob/master/Deep%20Learning/introduction.md#%EB%94%A5%EB%9F%AC%EB%8B%9Ddeep-learning, "github link")
 * 순방향 신경망 (DNN) 이론
 * Numpy
 * Matplotlib
