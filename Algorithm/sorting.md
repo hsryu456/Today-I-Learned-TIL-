@@ -203,6 +203,9 @@ void merge(int A[], int first, int mid, int last) {
   }
 }
 ```
+  > >병합 정렬 단점:
+   - merge 할 때 O(n) 추가적인 메모리가 필요하다.
+   - 재귀 호출 시  O(log n) 스택 메모리가 필요하다.
 
 시간복잡도
 -------------
